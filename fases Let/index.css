@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h3{
+    font-family: 'Bebas Neue', cursive;
+}
+
+p{
+    font-family: 'Overpass', sans-serif;
+}

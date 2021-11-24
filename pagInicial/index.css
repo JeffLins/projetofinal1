@@ -1,0 +1,18 @@
+body{
+    margin: 0px;
+    height: 100%;
+    background: black;
+    height: 100%;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-image: url("../imgPrincipais/novo start.gif")
+}
+
+
+.footerPrincipal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+

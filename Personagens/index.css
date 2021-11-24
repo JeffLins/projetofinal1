@@ -1,0 +1,39 @@
+body{
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    scroll-behavior: smooth;
+    background-image: url("escolha de personagens.webp");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.inicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.titulo{
+    width: 15%;
+    text-align: center;
+}
+
+.personagem{
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    margin-top: 200px;
+}

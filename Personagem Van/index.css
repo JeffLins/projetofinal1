@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../ProjetoFinalModulo1/imgPrincipais/fundoPrimeiraFase.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h3 {
+    font-family: 'Bebas Neue', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    font-family: 'Overpass', sans-serif;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
