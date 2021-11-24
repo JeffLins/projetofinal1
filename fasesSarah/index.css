@@ -1,0 +1,45 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+ }
+
+#fase1{
+    background-image: url("estacionamento.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#fase2{
+    background-image: url("corredor.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#fase3{
+    background-image: url("biblioteca.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h3 {
+    font-family: 'Bebas Neue', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto{
+    font-family: 'Overpass', sans-serif;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.botao{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+

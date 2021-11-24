@@ -6,6 +6,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+#fase1{
+    background-image: url("saladeAula.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#fase2{
+    background-image: url("corredorFaseLet.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#fase3{
+    background-image: url("escadas.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 h3{
     font-family: 'Bebas Neue', cursive;
@@ -14,3 +29,4 @@ h3{
 p{
     font-family: 'Overpass', sans-serif;
 }
+

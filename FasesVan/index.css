@@ -2,15 +2,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@500&display=swap');
 
 *{
+    width: 100%;
+    height: 100%;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
-    background-image: url(../ProjetoFinalModulo1/imgPrincipais/fundoPrimeiraFase.jpg);
+#fase1{
+    background-image: url("escola1.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
+}
+#fase2{
+    background-image: url("quadra.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#fase3{
+    background-image: url("refeitorio.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.texto{
+    display:flex;
+    width: 80%;
+    height: 80%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 h3 {
@@ -23,6 +45,11 @@ h3 {
 p{
     font-family: 'Overpass', sans-serif;
     display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao{
     align-items: center;
     justify-content: center;
 }
