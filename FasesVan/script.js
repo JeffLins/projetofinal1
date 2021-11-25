@@ -1,4 +1,4 @@
-function escolhaVan2(){ 
+function escolhaVan(){ 
  
     var opcao = prompt(' 1- lutar contra eles?\n 2- Esperar por ajudar?') 
      
@@ -18,11 +18,11 @@ function escolhaVan2(){
     return location = '../GameOver/gameover.html' 
      
     } else { 
-    escolhaVan2() 
+    escolhaVan() 
     } 
 }
 
-function escolhaVan3(){ 
+function escolhaVan(){ 
  
     var opcao = prompt(1 -'Van segue o caminho sozinha\n2 - Van luta contra o vampiro que tem a cura de sua irmã  e corre contra o tempo para salvá-la? ') 
      
@@ -42,7 +42,7 @@ function escolhaVan3(){
     return location = '../GameOver/gameover.html' 
      
     } else { 
-    escolhaVan3() 
+    escolhaVan() 
     } 
 }
 
