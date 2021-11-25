@@ -2,6 +2,6 @@
 function proximaPagina(){
     setTimeout(function(){
         window.location.href = "./Personagens/index.html"
-    }, 2000)
+    }, 3500)
 } 
 proximaPagina()

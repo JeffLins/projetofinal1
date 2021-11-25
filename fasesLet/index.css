@@ -6,6 +6,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 #fase1{
     background-image: url("saladeAula.jpg");
     background-repeat: no-repeat;
@@ -24,9 +32,30 @@
 
 h3{
     font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+   
 }
 
 p{
     font-family: 'Overpass', sans-serif;
 }
 
+.texto3{
+    width: 60%;
+    background:#a0c4ff;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.texto2{
+    width: 60%;
+    background:#c2c5aa;
+    padding: 20px;
+    border-radius: 20px;
+}
+.texto1{
+    width: 60%;
+    background:#dee2e6;
+    padding: 20px;
+    border-radius: 20px;
+}
