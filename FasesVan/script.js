@@ -1,4 +1,4 @@
-function escolhaVan(){ 
+function escolhaVan2(){ 
  
     var opcao = prompt(' 1- lutar contra eles?\n 2- Esperar por ajudar?') 
      
@@ -11,7 +11,7 @@ function escolhaVan(){
      
     if(opcao == 1){ 
      
-    return location = '../fase3.html' 
+    return location = './fase3.html' 
      
     } else if(opcao == 2){ 
      
@@ -22,20 +22,20 @@ function escolhaVan(){
     } 
 }
 
-function escolhaVan(){ 
+function escolhaVan1(){ 
  
-    var opcao = prompt(1 -'Van segue o caminho sozinha\n2 - Van luta contra o vampiro que tem a cura de sua irmã  e corre contra o tempo para salvá-la? ') 
+    var opcao = prompt('1-Van segue o caminho sozinha\n2 - Van luta contra o vampiro que tem a cura de sua irmã  e corre contra o tempo para salvá-la? ') 
      
     while(opcao != 1 && opcao != 2){ 
     alert('Opção invalida') 
      
-    opcao = prompt(1 -'Van segue o caminho sozinha\n2 - Van luta contra o vampiro que tem a cura de sua irmã  e corre contra o tempo para salvá-la? ') 
+    opcao = prompt('1- Van segue o caminho sozinha\n2 - Van luta contra o vampiro que tem a cura de sua irmã  e corre contra o tempo para salvá-la? ') 
      
     } 
      
     if(opcao == 1){ 
      
-    return location = '../fase3.html' 
+    return location = './fase2.html' 
      
     } else if(opcao == 2){ 
      
@@ -49,20 +49,20 @@ function escolhaVan(){
 
 function escolhaVan3(){ 
  
-        var opcao = prompt('winner chick') 
+        var opcao = prompt('1 - Você vai concorda com Let\n 2 - Van e Let encontram sua irmã Sarah no andar de cima.') 
          
         while(opcao != 1 && opcao != 2){ 
         alert('Opção invalida') 
          
-        opcao = prompt() 
+        opcao = prompt('1 - Você vai concorda com Let  2- Van e Let encontram sua irmã Sarah no andar de cima.') 
          
         } 
          
-        if(opcao == 1){ 
+        if(opcao == 2){ 
          
         return location = '../pagFinal/final.html' 
          
-        } else if(opcao == 2){ 
+        } else if(opcao == 1){ 
          
         return location = '../GameOver/gameover.html' 
          

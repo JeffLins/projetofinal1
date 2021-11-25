@@ -34,7 +34,7 @@
 //   }
 // }
 
-function escolhaopcaoLet1(){ 
+function escolhaLet1(){ 
  
   var opcao = prompt('1-Entre na biblioteca e investiga o barulho.\n 2-Segue seu caminho em procura de sua irmã.') 
    
@@ -51,14 +51,14 @@ function escolhaopcaoLet1(){
    
   } else if(opcao == 2){ 
    
-  return location = '../fase2.html' 
+  return location = './fase2.html' 
    
   } else { 
-  escolhaopcaoVan3() 
+  escolhaLet1() 
   } 
 }
 
-function escolhaopcaoLet2(){ 
+function escolhaLet2(){ 
  
   var opcao = prompt('1 - da a volta pelo lado de fora e acaba morrendo por vampiros.\n2 -Subir a escada.') 
    
@@ -71,18 +71,18 @@ function escolhaopcaoLet2(){
    
   if(opcao == 1){ 
    
-  return location = '../fase3.html' 
+  return location = './fase3.html' 
    
   } else if(opcao == 2){ 
    
   return location = '../GameOver/gameover.html' 
    
   } else { 
-  escolhaopcaoLet2() 
+  escolhaLet2() 
   } 
 }
 
-function escolhaopcaoVan3(){ 
+function escolhaLet3(){ 
  
   var opcao = prompt('winner chick') 
    
@@ -102,6 +102,6 @@ function escolhaopcaoVan3(){
   return location = '../GameOver/gameover.html' 
    
   } else { 
-  escolhaopcaoVan3() 
+  escolhaLet3() 
   } 
 }
