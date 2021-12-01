@@ -1,39 +1,3 @@
-// function escolhaopcaoLet(){
-//     var pergunta =(prompt('1-Entre na biblioteca e investiga o barulho.\n 2-Segue seu caminho em procura de sua irmã.'))
-//     while (true){
-// if(pergunta ==1){
-//     window.location.href ='../GameOver/gameover.html'
-// }
-// else{
-//     window.location.href ='./fase2.html'
-//     }
-//   }
-// }
-
-// function escolhaopcaoLet(){
-//     var pergunta = (prompt ('1 - da a volta pelo lado de fora e acaba morrendo por vampiros.\n2 -Subir a escada.'))
-//     while (true){
-//     if(pergunta == 2){
-//     window.location.href = './fase3.html'
-// }else{
-//     window.location.href = '../GameOver/gameover.html'
-//     }
-//   }
-// }
-
-// function escolhaopcaoLet(){
-//     var pergunta = (prompt ('1-Ser não for luzi, não entre..\n 2-Ser for sarah, entre e salve ela..'))
-//     while (true){
-//     if(pergunta == 2){
-//     alert('Parabéns você conseguiu e agora está mais perto de salvar Luzi')
-//     window.location.href = '.fase3.html'
-// }
-// else{
-//     window.location.href ='../GameOver/gameover.html'
-//     }
-//   }
-// }
-
 function escolhaLet1(){ 
  
   var opcao = prompt('1-Entre na biblioteca e investiga o barulho.\n 2-Segue seu caminho em procura de sua irmã.') 
@@ -84,21 +48,21 @@ function escolhaLet2(){
 
 function escolhaLet3(){ 
  
-  var opcao = prompt('winner chick') 
+  var opcao = prompt('1 - primeira porta\n 2- segunda porta') 
    
   while(opcao != 1 && opcao != 2){ 
   alert('Opção invalida') 
    
-  opcao = prompt() 
+  opcao = prompt('1 - primeira porta\n 2- segunda porta') 
    
   } 
    
-  if(opcao == 1){ 
-   
+  if(opcao == 2){ 
+    alert('Parabéns voce conseguiu resgatar a Luzi')
   return location = '../pagFinal/final.html' 
    
-  } else if(opcao == 2){ 
-   
+  } else if(opcao == 1){ 
+    alert('Voce não conseguiu abrir a porta, Luzi agora é uma vampira e sugou o sangue de quem ta lendo')
   return location = '../GameOver/gameover.html' 
    
   } else { 

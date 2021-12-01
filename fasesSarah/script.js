@@ -35,11 +35,11 @@ function escolhaopcaoSarah1(){
     } 
      
     if(opcao == 1){ 
-     
+        alert('Voce não conseguiu abrir a porta, Luzi agora é uma vampira e sugou o sangue de quem ta lendo')
     return location = '../GameOver/gameover.html' 
      
     } else if(opcao == 2){ 
-     
+        
     return location = './fase2.html' 
      
     } else { 
@@ -61,11 +61,11 @@ function escolhaopcaoSarah3(){
     } 
      
     if(opcao == 1){ 
-     
+        alert('Voce não conseguiu abrir a porta, Luzi agora é uma vampira e sugou o sangue de quem ta lendo')
     return location = '../GameOver/gameover.html' 
      
     } else if(opcao == 2){ 
-     
+        alert('Parabéns voce conseguiu resgatar a Luzi')
     return location = '../pagFinal/final.html' 
      
     } else { 

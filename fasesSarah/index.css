@@ -34,12 +34,22 @@ h3 {
     display:flex;
     align-items: center;
     justify-content: center;
+    background-color: #d8e2dc;
+}
+
+p{
+    font-family: 'Overpass', sans-serif;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fad2e1;
 }
 
 
 .botao{
     display:flex;
     align-items: center;
+    justify-content: center;
     justify-content: center;
 }
 

@@ -18,7 +18,7 @@ function escolhaVan2(){
     return location = '../GameOver/gameover.html' 
      
     } else { 
-    escolhaVan() 
+    escolhaVan2() 
     } 
 }
 
@@ -42,7 +42,7 @@ function escolhaVan1(){
     return location = '../GameOver/gameover.html' 
      
     } else { 
-    escolhaVan() 
+    escolhaVan1() 
     } 
 }
 
@@ -59,13 +59,13 @@ function escolhaVan3(){
         } 
          
         if(opcao == 2){ 
-         
+            alert('Parabéns voce conseguiu resgatar a Luzi')
         return location = '../pagFinal/final.html' 
          
         } else if(opcao == 1){ 
-         
+            alert('Voce não conseguiu abrir a porta, Luzi agora é uma vampira e sugou o sangue de quem ta lendo')
         return location = '../GameOver/gameover.html' 
-         
+        
         } else { 
         escolhaVan3() 
         } 
